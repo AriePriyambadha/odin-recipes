@@ -1,3 +1,7 @@
+* {
+  outline: 2px solid red;
+}
+
 body {
   font-family: "Verdana";
   font-size: 12px;
@@ -30,5 +34,5 @@ h3 {
 
 .betawi-soto, .crazy-fried-rice, .padang-satay {
   width: 300px;
-  height: auto;
+  max-height: 300px;
 }
