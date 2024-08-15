@@ -1,15 +1,20 @@
 * {
-  outline: 2px solid red;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Verdana";
-  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #F0F2DF;
 }
 
 h1 {
-  background-color: aquamarine;
   color: rgb(3, 27, 7);
+  padding: 20px;
+  text-align: center;
+  font-size: 42px;
 }
 
 h2 {
@@ -18,6 +23,27 @@ h2 {
 
 h3 {
   background-color: bisque;
+}
+
+.main-img {
+  width: 512px;
+  height: 512px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
 }
 
 .betawi-soto {
@@ -35,4 +61,18 @@ h3 {
 .betawi-soto, .crazy-fried-rice, .padang-satay {
   width: 300px;
   max-height: 300px;
+}
+
+.nasi-goreng-index, .padang-satay-index, .betawi-soto-index {
+  width: 155px;
+  height: 155px;
+  border-radius: 20px;
+}
+
+li {
+  margin-right: 15px;
+}
+
+li:last-child {
+  margin-right: 0;
 }
