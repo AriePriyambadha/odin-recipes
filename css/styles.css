@@ -8,6 +8,18 @@ h1 {
   color: rgb(3, 27, 7);
 }
 
+h2 {
+  background-color: mediumpurple;
+}
+
+h3 {
+  background-color: bisque;
+}
+
+.betawi-soto {
+  background-color: rgb(57, 57, 252);
+}
+
 .crazy-fried-rice {
   background-color: rgb(255, 96, 96);
 }
@@ -16,14 +28,7 @@ h1 {
   background-color: rgb(3, 165, 3);
 }
 
-.betawi-soto {
-  background-color: rgb(57, 57, 252);
-}
-
-h2 {
-  background-color: mediumpurple;
-}
-
-h3 {
-  background-color: bisque;
+.betawi-soto, .crazy-fried-rice, .padang-satay {
+  width: 300px;
+  height: auto;
 }
